@@ -1,0 +1,215 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1873787959.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:58 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1873787959.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1873787959.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1873787959.dir\Debug\cmTryCompileExec1873787959.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1873787959.dir\Debug\\" /Fd"cmTryCompileExec1873787959.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1873787959.dir\Debug\\" /Fd"cmTryCompileExec1873787959.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1873787959.vcxproj]
+  
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1873787959.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1873787959.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1873787959.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.51
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(void){return 0;}
+
+Determining size of off64_t failed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1426461634.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:05:06 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1426461634.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1426461634.dir\Debug\cmTryCompileExec1426461634.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1426461634.dir\Debug\\" /Fd"cmTryCompileExec1426461634.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\OFF64_T.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1426461634.dir\Debug\\" /Fd"cmTryCompileExec1426461634.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\OFF64_T.c
+  
+  OFF64_T.c
+..\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+..\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+..\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+..\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+..\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  ..\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1426461634.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.41
+
+F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1408057059.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:05:07 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1408057059.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1408057059.dir\Debug\cmTryCompileExec1408057059.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1408057059.dir\Debug\\" /Fd"cmTryCompileExec1408057059.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1408057059.dir\Debug\\" /Fd"cmTryCompileExec1408057059.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1408057059.dir\Debug\cmTryCompileExec1408057059.exe.embed.manifest.res" cmTryCompileExec1408057059.dir\Debug\cmTryCompileExec1408057059_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1408057059.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec1408057059.dir\Debug\cmTryCompileExec1408057059.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1408057059.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1408057059.lib" /MACHINE:X86 cmTryCompileExec1408057059.dir\Debug\cmTryCompileExec1408057059.exe.embed.manifest.res
+  cmTryCompileExec1408057059.dir\Debug\CheckFunctionExists.obj  /machine:X86 /debug 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj]
+F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1408057059.exe : fatal error LNK1120: 1 unresolved externals [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj]
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj]
+  F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1408057059.exe : fatal error LNK1120: 1 unresolved externals [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1408057059.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec2005764042.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:05:08 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2005764042.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2005764042.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2005764042.dir\Debug\cmTryCompileExec2005764042.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2005764042.dir\Debug\\" /Fd"cmTryCompileExec2005764042.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2005764042.dir\Debug\\" /Fd"cmTryCompileExec2005764042.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2005764042.vcxproj]
+  
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2005764042.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2005764042.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2005764042.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.40
+
+

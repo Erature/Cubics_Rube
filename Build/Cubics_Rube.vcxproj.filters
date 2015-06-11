@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Cubics_Rube\cubics_rube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cubics_Rube\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Cubics_Rube\cubes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Cubics_Rube\TransformVertexShader.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Cubics_Rube\TextureFragmentShader.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Cubics_Rube\Resources\On_typing_naming_and_templates.txt">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Cubics_Rube\Resources\Type_Definitions.txt">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4161401-CBF3-4676-B27E-181D3828D873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{3AEF5568-332C-430F-8CBD-AA13690D94A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{DE5BD710-F4C0-4605-A9DD-49302BC034CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{fe9daf5e-36fa-4f1e-9d28-f29ab435151b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{971a0754-f769-4a04-a9f8-dc3ea8a8b93d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

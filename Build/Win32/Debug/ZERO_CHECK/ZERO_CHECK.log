@@ -1,0 +1,26 @@
+﻿Build started 6/10/2015 9:06:30 PM.
+     1>Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Debug\".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/glfw-3.0.3/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/glfw-3.0.3/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/assimp-3.0.1270/code/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\ZERO_CHECK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29

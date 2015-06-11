@@ -1,0 +1,135 @@
+/*********
+ * RULES *
+ *********/
+
+1) ALWAYS Make sure to sync before working
+	1) a. If you cannot, but you are working on changes that may override other already commited changes, then create a separate branch
+2) Try to avoid committing broken changes
+3) Try to upload everything at once at the end of the time you're working on something or at the end of the day. 
+	That way, you don't have other people working on old code, or changing things that you've been working on
+
+
+
+
+
+
+/*************
+ * TEMPLATES *
+ *************/
+
+	Starting a header file:
+/********************************************************************************
+ * Class: ClassName
+ * Function: What this class is able to do
+ *
+ * Members:
+ * Data Members:
+ *	x	: A class or instance variable and what its purpose is
+ * 
+ * Method Members:
+ *	getX	: A method. What it does, why, and what it returns
+ *
+ * @author yourName
+ * @version 1.0
+ * 
+ *******************************************************************************/
+	If you add onto someone else's file, then change the author annotation to:
+		@author theirName
+		@author yourName
+
+	If you are going to commit changes to an existing file in the repository, since we're doing this mostly in batches,
+		then record your changes in the following way:
+		@author ....
+		@version 1.01
+			- added variables: y, z
+			- added methods: getY, getZ, setX, setY, setZ
+			- changed method: getX to add 1 to x before returning
+			- changed method: methodName description of the change
+		@version 1.0
+
+	Try to update version numbers by hundreths. Depending on the severity of the change, increasing primary version numbers is allowed.
+		@version 2.0
+			- changed variable: y to a vec3 object rather than an int
+			- removed methods: setX, setY, setZ due to the class reworking. These methods are now redundant
+			- added methods: addX, addY, addZ, multiplyX, rotateY, rotateZ
+			- changed method: getX to return just x by itself
+			- changed method: getY's return value to reflect the change to variable y
+			- changed constructor: to accept the new type for y. Also to set default values for x and z
+		@version 1.12
+			...
+		@version 1.01
+			- added variables: y, z
+			- added methods: getY, getZ, setX, setY, setZ
+			- changed method: getX to add 1 to x before returning
+			- changed method: methodName description of the change
+		@version 1.0
+
+	For all changes, please be sure to update the appropriate documentation as well. Nothing's worse than working on someone else's
+		code that has zero meaningful documentation.
+
+
+
+
+	Definitions:
+Ensure that all header files have the following pre-processor instructions wrapping the entire file:
+
+#ifndef _file_name_h
+#define _file_name_h
+
+.... {file goes here}
+
+#endif
+
+This ensures that all includes for this particular file will only copy the data once. C++ can occassionally be stupid
+	and include multiple copies of files if allowed. Also, this stops circular dependencies from ruining performance
+
+
+
+
+	Commits
+When committing, the rule is thus:
+TITLE: The title must be either witty or descriptive or both
+DESCRIPTION: Include a witty header on the description that will lead into the changes made by your commit
+
+Example:
+TITLE:
+The Birth of Greatness
+DESCRIPTION:
+And so we bear witness to the birth of our child the CODE. The firing of synapses small and large. The turning on
+and off of binary data points, and the travel of electricity through logic gates in the grand brain our CPU.
+We bear witness to the culmination of our will. We bear witness to the culmination of our intelligence. We
+take part in the ceremony of creation.
+
+Description of the changes:
+	Created the initial header files that will be used for the project
+	Created additional utility text files for reference by members of the project
+	Added linking to the specific GLEW and GLUT files we'll be using for the project.
+
+Scope of the changes:
+	constants.h
+	cubes.h
+	On_typing_naming_and_templates.txt
+	Type_definitions.txt
+
+Status: Runnable
+
+
+
+
+
+/**********
+ * TYPING *
+ **********/
+
+I've fallen in love with hungarian-style code and I would like to use it for our naming.
+http://www.joelonsoftware.com/articles/Wrong.html will help explain why.
+
+So the idea is this:
+each variable is named [type]_[name]
+and by type, I mean purpose.
+As of this writing I've come up with one purpose already (dir). dir_name specifies that the variable is to be used as a direction.
+Therefore, if you had a value dir_connectingSide, it would be assigned a value corresponding to the direction of rotation, facing, etc
+Other examples that we could come up with might be fixd_, where fixd corresponds to fixed points in space, or trans_
+for transformable values in space, or scal_ for scalar values.
+
+There will be an additional text file just of definitions of type-prefixes

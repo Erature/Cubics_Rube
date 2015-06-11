@@ -1,0 +1,23 @@
+﻿Build started 6/10/2015 9:06:30 PM.
+     1>Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\external\GLEW_190.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\external\Debug\".
+       InitializeBuildStatus:
+         Creating "GLEW_190.dir\Debug\GLEW_190.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/external/CMakeLists.txt
+         CMake does not need to re-run because F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\external\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\code\BoostWorkaround" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _WINDOWS /D ASSIMP_BUILD_BOOST_WORKAROUND /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"GLEW_190.dir\Debug\\" /Fd"GLEW_190.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\external\glew-1.9.0\src\glew.c"
+         glew.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\external\Debug\GLEW_190.lib" /NOLOGO GLEW_190.dir\Debug\glew.obj
+         GLEW_190.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\external\Debug\GLEW_190.lib
+       FinalizeBuildStatus:
+         Deleting file "GLEW_190.dir\Debug\GLEW_190.unsuccessfulbuild".
+         Touching "GLEW_190.dir\Debug\GLEW_190.lastbuildstate".
+     1>Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\external\GLEW_190.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.66

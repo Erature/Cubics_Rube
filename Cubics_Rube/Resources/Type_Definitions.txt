@@ -1,0 +1,18 @@
+/********************
+ * TYPE DEFINITIONS *
+ ********************/
+
+colr_	corresponds to color vectors
+
+dir_	corresponds to a direction. This may be part of an enumeration (dir_cube_directions_t),
+		or even a vector describing the normal vector of a plane, or the direction of the face of a cube.
+
+fixd_	corresponds to a fixed VECTOR or POINT. It is a set of three (or four) values that are not to change
+		but rather to be used as starting constants or transformations.
+
+scal_	corresponds to scalar values.
+		Items with scalar values should be used for the purpose of mutating vectors and matricies
+		They should not be used as vectors themselves or anywhere else where scalars might be inappropriate
+
+trans_	corresponds to transformable VECTOR and POINT values. It is a set of three (or four) values that are to be
+		changed

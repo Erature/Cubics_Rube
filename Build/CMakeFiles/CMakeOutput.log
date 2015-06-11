@@ -1,0 +1,523 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:43 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdC\.\CompilerIdC.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdC.exe;#1" /manifest Debug\CompilerIdC.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/3.2.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:44 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CompilerIdCXX.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdCXX\.\CompilerIdCXX.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\CompilerIdCXX.exe;#1" /manifest Debug\CompilerIdCXX.exe.intermediate.manifest
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/3.2.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec362840091.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:46 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec362840091.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec362840091.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec362840091.dir\Debug\\" /Fd"cmTryCompileExec362840091.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec362840091.dir\Debug\\" /Fd"cmTryCompileExec362840091.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  testCCompiler.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.embed.manifest.res" cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec362840091.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec362840091.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec362840091.lib" /MACHINE:X86 cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.embed.manifest.res
+  cmTryCompileExec362840091.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.embed.manifest" /manifest cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.embed.manifest.res" cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec362840091.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec362840091.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec362840091.lib" /MACHINE:X86 cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.exe.embed.manifest.res
+  cmTryCompileExec362840091.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec362840091.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec362840091.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.unsuccessfulbuild".
+  Touching "cmTryCompileExec362840091.dir\Debug\cmTryCompileExec362840091.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec362840091.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.36
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec2473021472.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:48 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2473021472.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2473021472.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2473021472.dir\Debug\\" /Fd"cmTryCompileExec2473021472.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2473021472.dir\Debug\\" /Fd"cmTryCompileExec2473021472.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.embed.manifest.res" cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2473021472.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2473021472.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2473021472.lib" /MACHINE:X86 cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.embed.manifest.res
+  cmTryCompileExec2473021472.dir\Debug\CMakeCCompilerABI.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.embed.manifest" /manifest cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.embed.manifest.res" cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2473021472.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2473021472.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2473021472.lib" /MACHINE:X86 cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.exe.embed.manifest.res
+  cmTryCompileExec2473021472.dir\Debug\CMakeCCompilerABI.obj  /machine:X86 /debug 
+  cmTryCompileExec2473021472.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2473021472.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.unsuccessfulbuild".
+  Touching "cmTryCompileExec2473021472.dir\Debug\cmTryCompileExec2473021472.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec2473021472.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec13636010.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:51 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec13636010.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec13636010.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec13636010.dir\Debug\\" /Fd"cmTryCompileExec13636010.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec13636010.dir\Debug\\" /Fd"cmTryCompileExec13636010.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.embed.manifest.res" cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec13636010.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec13636010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec13636010.lib" /MACHINE:X86 cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.embed.manifest.res
+  cmTryCompileExec13636010.dir\Debug\testCXXCompiler.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.embed.manifest" /manifest cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.embed.manifest.res" cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec13636010.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec13636010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec13636010.lib" /MACHINE:X86 cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.exe.embed.manifest.res
+  cmTryCompileExec13636010.dir\Debug\testCXXCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec13636010.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec13636010.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.unsuccessfulbuild".
+  Touching "cmTryCompileExec13636010.dir\Debug\cmTryCompileExec13636010.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec13636010.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.12
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3059486670.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:53 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3059486670.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3059486670.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3059486670.dir\Debug\\" /Fd"cmTryCompileExec3059486670.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3059486670.dir\Debug\\" /Fd"cmTryCompileExec3059486670.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.embed.manifest.res" cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3059486670.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3059486670.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3059486670.lib" /MACHINE:X86 cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.embed.manifest.res
+  cmTryCompileExec3059486670.dir\Debug\CMakeCXXCompilerABI.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.embed.manifest" /manifest cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.embed.manifest.res" cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3059486670.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3059486670.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3059486670.lib" /MACHINE:X86 cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.exe.embed.manifest.res
+  cmTryCompileExec3059486670.dir\Debug\CMakeCXXCompilerABI.obj  /machine:X86 /debug 
+  cmTryCompileExec3059486670.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3059486670.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.unsuccessfulbuild".
+  Touching "cmTryCompileExec3059486670.dir\Debug\cmTryCompileExec3059486670.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3059486670.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.15
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1248131731.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:56 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1248131731.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1248131731.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1248131731.dir\Debug\\" /Fd"cmTryCompileExec1248131731.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue ..\feature_tests.cxx
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1248131731.dir\Debug\\" /Fd"cmTryCompileExec1248131731.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue ..\feature_tests.cxx
+  
+  feature_tests.cxx
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.embed.manifest.res" cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1248131731.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1248131731.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1248131731.lib" /MACHINE:X86 cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.embed.manifest.res
+  cmTryCompileExec1248131731.dir\Debug\feature_tests.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.embed.manifest" /manifest cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.embed.manifest.res" cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1248131731.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1248131731.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1248131731.lib" /MACHINE:X86 cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.exe.embed.manifest.res
+  cmTryCompileExec1248131731.dir\Debug\feature_tests.obj  /machine:X86 /debug 
+  cmTryCompileExec1248131731.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1248131731.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.unsuccessfulbuild".
+  Touching "cmTryCompileExec1248131731.dir\Debug\cmTryCompileExec1248131731.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1248131731.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.14
+
+
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec3452358270.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:04:59 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3452358270.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3452358270.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3452358270.dir\Debug\\" /Fd"cmTryCompileExec3452358270.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3452358270.dir\Debug\\" /Fd"cmTryCompileExec3452358270.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.embed.manifest.res" cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3452358270.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3452358270.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3452358270.lib" /MACHINE:X86 cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.embed.manifest.res
+  cmTryCompileExec3452358270.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.embed.manifest" /manifest cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.embed.manifest.res" cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3452358270.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3452358270.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3452358270.lib" /MACHINE:X86 cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.exe.embed.manifest.res
+  cmTryCompileExec3452358270.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+  cmTryCompileExec3452358270.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3452358270.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.unsuccessfulbuild".
+  Touching "cmTryCompileExec3452358270.dir\Debug\cmTryCompileExec3452358270.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3452358270.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec1713849897.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:05:02 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1713849897.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1713849897.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1713849897.dir\Debug\\" /Fd"cmTryCompileExec1713849897.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1713849897.dir\Debug\\" /Fd"cmTryCompileExec1713849897.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.embed.manifest.res" cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1713849897.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1713849897.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1713849897.lib" /MACHINE:X86 cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.embed.manifest.res
+  cmTryCompileExec1713849897.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.embed.manifest" /manifest cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.embed.manifest.res" cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1713849897.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1713849897.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1713849897.lib" /MACHINE:X86 cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.exe.embed.manifest.res
+  cmTryCompileExec1713849897.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+  cmTryCompileExec1713849897.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1713849897.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.unsuccessfulbuild".
+  Touching "cmTryCompileExec1713849897.dir\Debug\cmTryCompileExec1713849897.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec1713849897.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTryCompileExec273058415.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/10/2015 9:05:04 PM.
+Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec273058415.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec273058415.dir\Debug\".
+  Creating directory "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec273058415.dir\Debug\\" /Fd"cmTryCompileExec273058415.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec273058415.dir\Debug\\" /Fd"cmTryCompileExec273058415.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.embed.manifest.res" cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec273058415.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec273058415.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec273058415.lib" /MACHINE:X86 cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.embed.manifest.res
+  cmTryCompileExec273058415.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.embed.manifest" /manifest cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.embed.manifest.res" cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec273058415.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec273058415.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec273058415.lib" /MACHINE:X86 cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.exe.embed.manifest.res
+  cmTryCompileExec273058415.dir\Debug\CheckIncludeFile.obj  /machine:X86 /debug 
+  cmTryCompileExec273058415.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec273058415.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.unsuccessfulbuild".
+  Touching "cmTryCompileExec273058415.dir\Debug\cmTryCompileExec273058415.lastbuildstate".
+Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\CMakeTmp\cmTryCompileExec273058415.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.16
+
+

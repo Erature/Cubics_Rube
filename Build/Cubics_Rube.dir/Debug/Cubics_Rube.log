@@ -1,0 +1,47 @@
+﻿Build started 6/10/2015 9:06:34 PM.
+     1>Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Cubics_Rube.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Cubics_Rube.dir\Debug\Cubics_Rube.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt
+         CMake does not need to re-run because F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src" /I"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\." /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D TW_STATIC /D TW_NO_LIB_PRAGMA /D TW_NO_DIRECT3D /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Cubics_Rube.dir\Debug\\" /Fd"Cubics_Rube.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Cubics_Rube\cubics_rube.cpp ..\common\shader.cpp ..\common\texture.cpp
+         cubics_rube.cpp
+         shader.cpp
+         texture.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Cubics_Rube.dir\Debug\Cubics_Rube.exe.embed.manifest.res" Cubics_Rube.dir\Debug\Cubics_Rube_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Debug\Cubics_Rube.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib "external\glfw-3.0.3\src\Debug\glfw3.lib" external\Debug\GLEW_190.lib glu32.lib opengl32.lib /MANIFEST /ManifestFile:"Cubics_Rube.dir\Debug\Cubics_Rube.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.lib" /MACHINE:X86 Cubics_Rube.dir\Debug\Cubics_Rube.exe.embed.manifest.res
+         Cubics_Rube.dir\Debug\cubics_rube.obj
+         Cubics_Rube.dir\Debug\shader.obj
+         Cubics_Rube.dir\Debug\texture.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Cubics_Rube.dir\Debug\Cubics_Rube.exe.embed.manifest" /manifest Cubics_Rube.dir\Debug\Cubics_Rube.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Cubics_Rube.dir\Debug\Cubics_Rube.exe.embed.manifest.res" Cubics_Rube.dir\Debug\Cubics_Rube_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Debug\Cubics_Rube.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib glu32.lib opengl32.lib "external\glfw-3.0.3\src\Debug\glfw3.lib" external\Debug\GLEW_190.lib glu32.lib opengl32.lib /MANIFEST /ManifestFile:"Cubics_Rube.dir\Debug\Cubics_Rube.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.lib" /MACHINE:X86 Cubics_Rube.dir\Debug\Cubics_Rube.exe.embed.manifest.res
+         Cubics_Rube.dir\Debug\cubics_rube.obj
+         Cubics_Rube.dir\Debug\shader.obj
+         Cubics_Rube.dir\Debug\texture.obj  /machine:X86 /debug 
+         Cubics_Rube.vcxproj -> F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Debug\Cubics_Rube.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.exe" "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Cubics_Rube/"
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "Cubics_Rube.dir\Debug\Cubics_Rube.unsuccessfulbuild".
+         Touching "Cubics_Rube.dir\Debug\Cubics_Rube.lastbuildstate".
+     1>Done Building Project "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Cubics_Rube.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.79

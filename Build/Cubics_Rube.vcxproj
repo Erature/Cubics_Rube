@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9852FB84-F1E1-47AC-BF1B-B057B61D4459}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Cubics_Rube</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Cubics_Rube.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Cubics_Rube</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Cubics_Rube.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Cubics_Rube</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Cubics_Rube.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Cubics_Rube</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Cubics_Rube.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Cubics_Rube</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/$(Configuration)/Cubics_Rube.exe" "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Cubics_Rube/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\Debug\glfw3.lib;external\Debug\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Debug/Cubics_Rube.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/$(Configuration)/Cubics_Rube.exe" "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Cubics_Rube/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\Release\glfw3.lib;external\Release\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Release/Cubics_Rube.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/Release/Cubics_Rube.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/$(Configuration)/Cubics_Rube.exe" "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Cubics_Rube/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\MinSizeRel\glfw3.lib;external\MinSizeRel\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/MinSizeRel/Cubics_Rube.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/MinSizeRel/Cubics_Rube.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\AntTweakBar-1.16\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glfw-3.0.3\include\GLFW;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glm-0.9.4.0;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\glew-1.9.0\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\assimp-3.0.1270\include;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\bullet-2.81-rev2613\src;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/$(Configuration)/Cubics_Rube.exe" "F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Cubics_Rube/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;external\glfw-3.0.3\src\RelWithDebInfo\glfw3.lib;external\RelWithDebInfo\GLEW_190.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/RelWithDebInfo/Cubics_Rube.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/RelWithDebInfo/Cubics_Rube.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube" "-BF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build" --check-stamp-file "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcxproj.user.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube" "-BF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build" --check-stamp-file "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcxproj.user.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube" "-BF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build" --check-stamp-file "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcxproj.user.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube" "-BF:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build" --check-stamp-file "F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CreateLaunchers.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\CleanDirectoryList.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\MSVCMultipleProcessCompile.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\ListCombinations.cmake;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\vcxproj.user.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\external\rpavlik-cmake-modules-1c73e35\launcher-templates\targetlauncher.cmd.in;F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\users\david\documents\visual studio 2010\Projects\Cubics_Rube\Build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\shader.hpp" />
+    <ClInclude Include="..\common\texture.hpp" />
+    <ClCompile Include="..\Cubics_Rube\cubics_rube.cpp" />
+    <ClCompile Include="..\common\shader.cpp" />
+    <ClCompile Include="..\common\texture.cpp" />
+    <ClInclude Include="..\Cubics_Rube\constants.h" />
+    <ClInclude Include="..\Cubics_Rube\cubes.h" />
+    <None Include="..\Cubics_Rube\Resources\On_typing_naming_and_templates.txt" />
+    <None Include="..\Cubics_Rube\Resources\Type_Definitions.txt" />
+    <None Include="..\Cubics_Rube\TransformVertexShader.vertexshader" />
+    <None Include="..\Cubics_Rube\TextureFragmentShader.fragmentshader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/GLEW_190.vcxproj">
+      <Project>96083CA5-2F8E-4706-89F0-BD0B11719916</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/external/glfw-3.0.3/src/GLFW_303.vcxproj">
+      <Project>A954E6EE-041C-4A2E-8854-102CF5674A1A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/users/david/documents/visual studio 2010/Projects/Cubics_Rube/Build/ZERO_CHECK.vcxproj">
+      <Project>89193A5E-290E-4064-B91C-87752075E425</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
